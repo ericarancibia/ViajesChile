@@ -37,6 +37,7 @@ body
 .card-text {
     text-align: left;
     font-size: 14px;
+    color: #fff;
 
 }
 
@@ -52,4 +53,20 @@ body
 }
 .card-header {
     font-size: 27px;
+}
+
+#titulo2{
+    text-align: center;
+    padding-top: 30px;
+   
+
+}
+#tarjetas article{
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    color: #fff;
+text-align: left;    
 }
