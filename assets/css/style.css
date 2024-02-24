@@ -10,7 +10,39 @@ body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
     font-family: "Raleway", sans-serif;
+}
+#principal{
+    color: white;
+}
+
+.card{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    max-width: 20rem;
 }
 
 
+#titulo1{
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+#titulo2{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#titulo3{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
