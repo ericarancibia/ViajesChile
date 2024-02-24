@@ -31,18 +31,25 @@ body
 
 #titulo1{
     text-align: center;
-    padding-top: 65px;
-    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-#titulo2{
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 40px;
+.card-text {
+    text-align: left;
+    font-size: 14px;
+
 }
 
-#titulo3{
-    text-align: center;
-    padding-top: 75px;
-    padding-bottom: 30px;
+#card_qs{
+    max-width: 22rem;
+}
+
+.card-body {    
+    padding-top: 7px;
+    padding-right: 0px;
+    padding-left: 0;
+
+}
+.card-header {
+    font-size: 27px;
 }
