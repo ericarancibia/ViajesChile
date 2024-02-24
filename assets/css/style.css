@@ -3,6 +3,7 @@
 :root {
     --white: #fff;
 }
+
 body
 {
     width: 100%;
@@ -11,3 +12,5 @@ body
     padding: 0px;
     font-family: "Raleway", sans-serif;
 }
+
+
