@@ -1,5 +1,7 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Parametros iniciales */
 :root {
     --white: #fff;
 }
@@ -13,8 +15,9 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+/* CSS Seccion ¿Quiénes Somos? y Cards */
 #principal {
-    color: white;
+    color: var(--white);
 }
 
 .card {
@@ -28,7 +31,6 @@ body {
     max-width: 20rem;
 }
 
-
 #titulo1 {
     text-align: center;
     padding-top: 40px;
@@ -37,7 +39,7 @@ body {
 .card-text {
     text-align: left;
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
 
 }
 
@@ -56,11 +58,13 @@ body {
     font-size: 27px;
 }
 
+/* CSS Sección Destacados y Cards */
 #titulo2 {
     text-align: center;
     padding-top: 30px;
-
-
+}
+.card-img-top{
+    max-height: 7rem;
 }
 
 #tarjetas article {
@@ -69,10 +73,11 @@ body {
 }
 
 .card-title {
-    color: #fff;
+    color: var(--white);
     text-align: left;
 }
 
+/* CSS Sección Contacto y Formulario */
 #titulo3 {
     text-align: center;
     padding-top: 40px;
@@ -83,4 +88,31 @@ body {
     padding-top: 10px;
     padding-bottom: 35px;
     text-align: left;
+}
+
+#btn-enviar{
+    display: flex;
+   justify-content: left;    
+}
+
+
+/* CSS Sección Footer e Iconos RRSS */
+#footer{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    color: var(--white);
+}
+
+#footer i{
+    padding-left: 7px;
+    padding-right: 7px;     
+}
+
+#iconos{
+    color: var(--white);
+}
+
+#iconos a{
+    color: var(--white);
+    text-decoration: none;
 }
