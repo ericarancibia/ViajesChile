@@ -4,8 +4,7 @@
     --white: #fff;
 }
 
-body
-{
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -13,11 +12,12 @@ body
     overflow-x: hidden;
     font-family: "Raleway", sans-serif;
 }
-#principal{
+
+#principal {
     color: white;
 }
 
-.card{
+.card {
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
@@ -29,7 +29,7 @@ body
 }
 
 
-#titulo1{
+#titulo1 {
     text-align: center;
     padding-top: 40px;
 }
@@ -41,32 +41,46 @@ body
 
 }
 
-#card_qs{
+#card_qs {
     max-width: 22rem;
 }
 
-.card-body {    
+.card-body {
     padding-top: 7px;
     padding-right: 0px;
     padding-left: 0;
 
 }
+
 .card-header {
     font-size: 27px;
 }
 
-#titulo2{
+#titulo2 {
     text-align: center;
     padding-top: 30px;
-   
+
 
 }
-#tarjetas article{
+
+#tarjetas article {
     align-items: center;
     justify-content: center;
 }
 
 .card-title {
     color: #fff;
-text-align: left;    
+    text-align: left;
+}
+
+#titulo3 {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#formulario {
+    padding-top: 10px;
+    padding-bottom: 35px;
+    text-align: left;
 }
