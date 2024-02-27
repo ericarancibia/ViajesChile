@@ -36,6 +36,9 @@ body {
     padding-top: 40px;
 }
 
+h1 {
+    font-size: 25px
+}
 .card-text {
     text-align: left;
     font-size: 14px;
@@ -63,7 +66,8 @@ body {
     text-align: center;
     padding-top: 30px;
 }
-.card-img-top{
+
+.card-img-top {
     max-height: 7rem;
 }
 
@@ -90,29 +94,29 @@ body {
     text-align: left;
 }
 
-#btn-enviar{
+#btn-enviar {
     display: flex;
-   justify-content: left;    
+    justify-content: left;
 }
 
 
 /* CSS Sección Footer e Iconos RRSS */
-#footer{
+#footer {
     padding-top: 25px;
     padding-bottom: 20px;
     color: var(--white);
 }
 
-#footer i{
+#footer i {
     padding-left: 7px;
-    padding-right: 7px;     
+    padding-right: 7px;
 }
 
-#iconos{
+#iconos {
     color: var(--white);
 }
 
-#iconos a{
+#iconos a {
     color: var(--white);
     text-decoration: none;
 }
